@@ -21,8 +21,6 @@ See dataPrepare.ipynb and data.py for detail.
 
 ### Model
 
-![img/u-net-architecture.png](img/u-net-architecture.png)
-
 This deep neural network is implemented with Keras functional API, which makes it extremely easy to experiment with different interesting architectures.
 
 Output from the network is a 512*512 which represents mask that should be learned. Sigmoid activation function
@@ -55,16 +53,6 @@ Also, this code should be compatible with Python versions 2.7-3.5.
 You will see the predicted results of test image in data/membrane/test
 
 ### Or follow notebook trainUnet
-
-
-
-### Results
-
-Use the trained model to do segmentation on test images, the result is statisfactory.
-
-![img/0test.png](img/0test.png)
-
-![img/0label.png](img/0label.png)
 
 
 ## About Keras
